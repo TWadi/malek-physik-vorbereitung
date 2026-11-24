@@ -1,0 +1,6 @@
+.netlify/
+.claude/
+.env
+*.pdf
+.DS_Store
+Thumbs.db

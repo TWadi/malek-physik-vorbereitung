@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Malek Physik Vorbereitung</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#/" aria-label="Startseite">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text">Malek <b>Physik</b> Vorbereitung</span>
+    </a>
+    <nav class="nav" aria-label="Hauptnavigation">
+      <a href="#/" data-nav="home">Lernpfad</a>
+      <a href="#/labor" data-nav="labor">Labor</a>
+      <a href="#/profil" data-nav="profil">Profil</a>
+    </nav>
+    <div class="chips" id="chips"></div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <div id="toasts" aria-live="polite"></div>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+
+  <!-- Kern -->
+  <script src="js/core/store.js"></script>
+  <script src="js/core/sim.js"></script>
+  <!-- Animationen -->
+  <script src="js/anim/gas1.js"></script>
+  <script src="js/anim/gas2.js"></script>
+  <script src="js/anim/phases.js"></script>
+  <script src="js/anim/energy.js"></script>
+  <script src="js/anim/entropy.js"></script>
+  <script src="js/anim/machines.js"></script>
+  <!-- Inhalte: pro Teil eine Gruppe von Dateien -->
+  <script src="js/content/parts.js"></script>
+  <script src="js/content/part1-a.js"></script>
+  <script src="js/content/part1-b.js"></script>
+  <script src="js/content/part1-c.js"></script>
+  <!-- Oberfläche -->
+  <script src="js/ui/quiz.js"></script>
+  <script src="js/ui/day.js"></script>
+  <script src="js/ui/app.js"></script>
+</body>
+</html>
